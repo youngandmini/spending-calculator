@@ -1,0 +1,44 @@
+
+.itemList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px gray;
+    border-radius: 2px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 5px;
+
+    transition: all 0.3s;
+}
+
+.itemName {
+    flex-basis: 0;
+    flex-grow: 5;
+}
+
+.price {
+    margin-left: 10px;
+    flex-basis: 0;
+    flex-grow: 4;
+}
+
+.editButton, .deleteButton {
+    padding: 0 0 0 0;
+    margin-right: 10px;
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.editButton {
+    color: seagreen;
+}
+.deleteButton {
+    color: indianred;
+}
+
+.itemList:hover {
+    background-color: #F5F5F5;
+    scale: 1.03;
+}

@@ -1,0 +1,53 @@
+
+.alertContainer {
+
+    position: fixed;
+    top: 40px;
+    right: -300px;
+    width: 300px;
+    height: 70px;
+    padding: 0 0 0 0;
+
+    display: flex;
+    justify-content: center;
+
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+.greenAlert, .redAlert {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.greenAlert {
+    background-color: seagreen;
+}
+
+.redAlert {
+    background-color: indianred;
+}
+
+
+@keyframes slidein {
+    0% {
+        right: -300px;
+    }
+    20% {
+        right: 50px;
+    }
+    80% {
+        right: 50px;
+    }
+    100% {
+        right: -300px;
+    }
+}

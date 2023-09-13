@@ -1,0 +1,19 @@
+
+.itemListContainer {
+    margin-top: 5px;
+}
+
+.itemLists {
+    border-bottom: solid lightgray 1px;
+}
+
+.deleteAllButton {
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    background-color: indianred;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
