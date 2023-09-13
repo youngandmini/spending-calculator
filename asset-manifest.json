@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spending-calculator/static/css/main.33b0e794.css",
+    "main.js": "/spending-calculator/static/js/main.a44b63cd.js",
+    "static/js/787.2073b47d.chunk.js": "/spending-calculator/static/js/787.2073b47d.chunk.js",
+    "index.html": "/spending-calculator/index.html",
+    "main.33b0e794.css.map": "/spending-calculator/static/css/main.33b0e794.css.map",
+    "main.a44b63cd.js.map": "/spending-calculator/static/js/main.a44b63cd.js.map",
+    "787.2073b47d.chunk.js.map": "/spending-calculator/static/js/787.2073b47d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33b0e794.css",
+    "static/js/main.a44b63cd.js"
+  ]
+}
